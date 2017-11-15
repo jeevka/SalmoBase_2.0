@@ -1,0 +1,1 @@
+/var/www/html/scripts2.js
