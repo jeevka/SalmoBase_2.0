@@ -1,1 +1,201 @@
-/var/www/html/salmonbase.css
+/* Color Pallet
+	Light indico #3C6478;
+	Gunmetal #293241;
+
+*/
+body {
+	background-color:#eef0f2;
+	margin-bottom:20px;
+}
+.navbar {
+	background-color:#3C6478;
+	border-radius:0px;
+}
+.main_body{
+	padding-left:40px;
+	
+}
+#logo{
+	font-family: Sans;
+	font-size:42px;
+}
+#split_text{
+	color:#f47d42;
+	font-style:bold;
+}
+.navbar-default .navbar-nav li a{
+    color: white;
+	font-size:1.2em;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px; /* or 950px */
+}
+.navbar-default .navbar-nav .open li a{
+    color: black;
+	font-size:1.2em;
+}
+.navbar-default .navbar-nav >li > a:hover {
+	background-color: #e7e7e7;
+}
+.active > a:hover {
+	background-color: white;
+}
+
+#salmon-circle {
+	padding-top:25px;
+	padding-left:20px;	
+}
+/* Start editing text main text */
+.main_text > h3 {
+	font-weight:bold;
+}
+div.col-lg-6 p, div.col-lg-8 p  {
+	font-size: 1.2em;
+	margin-left:px;
+} 
+.row{
+	background-color:white;
+	box-shadow: 0 9px 0px 0px white, 
+				0 -9px 0px 0px white, 
+				1px 0 5px -4px rgba(31, 73, 125, 0.8), 
+				-1px 0 5px -4px rgba(31, 73, 125, 0.8);
+}
+/* Hover over effect for pictures */
+.effectfront {
+  border: none;
+  margin: 0 auto;
+}
+.effectfront:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.atlantic_salmon{	
+	position:absolute;
+	left:268px;
+	top:220px;
+}
+.brown_trout{	
+	position:absolute;
+	left:268px;
+	top:200px;
+}
+.coho_salmon{	
+	position:absolute;
+	left:273px;
+	top:150px;
+}
+.artic_char{	
+	position:absolute;
+	left:278px;
+	top:178px;
+}
+.rainbow_trout{
+	position:absolute;
+	left:274px;
+	top:124px;
+}
+.danube_salmon{
+    position:absolute;
+    left:274px;
+	top:98px;
+}
+.european_grayling{
+	position:absolute;
+    left:274px;
+	top:72px;
+}
+.lakewhite{
+	position:absolute;
+    left:272px;
+	top:46px;	
+}
+.northenpike{
+	position:absolute;
+    left:272px;
+	top:22px;	
+}
+/* .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+ padding-top:5px;
+} */
+
+#gb_iframe{
+	height:800px;
+	width:800px;
+}
+footer{
+	position:relative;
+	top:20px;
+	height:120px;
+	background-color:#3C6478;
+	border-radius:0px;
+	
+}
+footer > p {
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	font-family:Sans;
+	font-size:22px;
+}
+
+
+/* navbar for species */
+.species-bar {
+        z-index:999;
+        padding-left:0px;
+        width:164px; /* Expand this if you need to add more species */
+        height:100px;
+        border:none;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        position: absolute;
+}
+
+/* Glyphicon sizes */
+.glyphicon-home {font-size: 0.8em;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu { padding-top:5px; }
+
+/*#float-left:100%; */ 
+
+#Download_Files{
+	margin-left:25px; 
+}
+
+#main_div {
+	padding-left:39px; 
+}
+
+.navbar-collapse{
+        padding-left:0px;
+}
+
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+.dropdown-submenu{
+	position:relative;
+}
+
+.release{
+	border: 0px solid; 
+	font-size: 18px; 
+	border-radius: 5px; 
+	height: 75px; 
+	width: 1300px; 
+}
+
+.inner_release{
+	margin-top:4px; 
+	margin-left:4px; 
+}
+
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+

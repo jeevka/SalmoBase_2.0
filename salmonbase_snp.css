@@ -1,1 +1,204 @@
-/var/www/html/salmonbase_snp.css
+
+/* Took out the background color */
+/* body { */
+        /* background-color:#214B96; */
+/* } */
+
+a{
+        color:blue;
+}
+
+#maindiv {
+        margin-left:auto;
+        margin-right:auto;
+        width:1500px;
+        background-color:white;
+}
+
+#back_button {
+        height:35px;
+        width:170px;
+        font-size:22px;
+        margin-left:11px;
+}
+
+#menudiv {
+        width:1200px;
+        height:50px;
+        /* background-color:#214B96;  Removed*/
+        margin:auto;
+        text-align:center;
+}
+
+#inner_menu_div {
+        margin-left:auto;
+                margin-right:auto;
+}
+
+#font_style_1 {
+        font-size:15px;
+        margin-left:25px;
+}
+
+#header {
+        background-color: #FFFFFF;
+        width: 1411px;
+        height: 150px;
+        text-align: center;
+        margin-top:10px;
+}
+
+#coolMenu {
+        text-color:#FFFFFF;
+        font-weight:bold;
+        font-size:40px;
+        width:900px;
+        text-align:center;
+        margin-left:300px;
+}
+
+#SNP_search {
+        margin-left:auto;
+	margin-right:auto;
+	width:800px; 
+}
+
+#SNP_search_box {
+        width:600px;
+        height:30px;
+        margin-left:auto;
+	margin-right:auto;
+        margin-top:0px;
+        border-width:2px;
+        border-color:#0080FF;
+}
+
+#SNP_search_button {
+        height:30px;
+        width:100px;
+        -webkit-appearance: button;
+}
+
+#SNP_table_33 {
+        width:1300px;
+        margin-left:100px;
+        margin-top:40px;
+}
+
+#donutchart {
+        height:308px;
+        width:400px;
+        float:right;
+        margin-top:0px;
+        margin-right:575px;
+}
+
+#chart_div {
+        height:350px;
+        width:450px;
+        float:left;
+        margin-left:53px;
+}
+
+#top_x_div {
+        height:350px;
+        width:450px;
+        float:right;
+        margin-right:55px;
+        margin-top:-315px;
+}
+
+#no_data_div {
+        margin-left:587px;
+}
+
+#N_SNP_table {
+        width:400px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+   font-size:40px
+}
+
+table#t01 th    {
+    background-color: black;
+    color: white;
+}
+
+table {
+        width:1325px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:40px;
+}
+
+#centerdiv {
+        margin-left:auto;
+        margin-right:auto;
+}
+
+#SBsearch {
+        width:250px;
+}
+
+#gene_search_legend {
+        font-size:20px;
+        font-weight:bold;
+}
+
+#footer {
+        background-color: #FFFFFF;
+        clear: both;
+        text-align:center ;
+        width: 1410px;
+}
+
+#SB {
+        color:#214B96;
+        font-weight:bold;
+        font-size:70px;
+}
+
+#about {
+        font-size:20px;
+        width:720px;
+        margin-left:auto;
+	margin-right:auto;
+        margin-top:50px;
+}
+
+center  {
+        margin-left:auto
+        margin-right:auto        
+}
+
+#download_seq_text {
+        margin-left:100px;
+        margin-top:10px;
+        font-size:20px;
+}
+
+#download_button{
+        -webkit-appearance: button;
+        height:30px;
+        width:120px;
+        margin-left:100px;
+        font-size:12px;
+        font-weight: bold;
+}
+
+#home,#blast_search,#gbrowse,#resource,#news {
+        display:block;
+        width:180px;
+        color:#FFFFFF;
+}

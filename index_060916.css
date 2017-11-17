@@ -1,1 +1,43 @@
-/var/www/html/index_060916.css
+
+
+
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    /* Remove the jumbotron's default bottom margin */
+.jumbotron {
+      margin-bottom: 0;
+      background-color:#80CCE0;
+      height:180px;
+      margin-top:-55px;
+    }
+.container {
+	margin-top:0px; 
+}
+
+    /* Add a gray background color and some padding to the footer */
+footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+.text-center {
+	text-align:top; 
+}
+
+#smoked_image{
+	display:none;
+}
+
+#smoked_image_1{
+        display:none;
+}
+
+#smoked_image_2{
+        display:none;
+}
+
+

@@ -1,1 +1,524 @@
-/var/www/html/styles.css
+
+body {
+	background-color:#929C9A;
+}
+
+#p_unused {
+	color:white;
+}
+
+#main_div_1 {
+	width:960px;
+	height:auto;
+	border:1px solid; 
+	margin:auto;
+	background-color:white;
+}
+
+
+#main_div_2 {
+        width:960px;
+        height:875px;
+        border:1px solid;
+        margin:auto;
+        background-color:white;
+}
+
+#salmobase_title_text {
+	margin-left:0px;
+	margin-top:15px;
+}
+
+#SB {
+	color:#214B96;
+	font-size:70px; 
+	font-weight:bold; 
+	margin-left:20px;
+}
+
+#title_inner_text {
+	float:right;
+	margin-top:31px;
+	margin-right:60px;
+}
+
+#inner_text {
+	font-size: 25px; 
+	color:#214B96;
+}
+
+#about_salmobase {
+	float:right;
+	width:465px;
+	height:300px;
+	margin-top:30px;
+	margin-right:50px;
+	background-color:white;
+	border-radius: 10px;
+	border:0px solid; 
+}
+
+#about_salmobase_inner_text {
+	margin-left:20px;
+	margin-top:-14px; 
+	font-color:white; 
+	height:204px;
+	width:470px;
+}
+
+
+#about_salmobase_inner_text_font {
+	#color:white;
+	font-size:17px; 
+}
+
+#circos_plot_image {
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	width:428px;
+	height:410px; 
+}
+
+#circos_plot_image_div {
+	height:410px;
+	width:428px;
+}
+
+
+#circos_plot_text {
+	height:15px;
+	width:428px; 
+	margin-top:-15px;
+}
+
+#circos_plot_text_font {
+	font-size:13px;
+	font-weight:bold; 
+}
+
+#gene_search {
+	float:right;
+	width:475px;
+	margin-top:22px;
+	height:40px;
+	margin-right:22px; 
+}
+
+#gene_search_submit {
+	width:50em:
+	height:20em;
+}
+
+#SBsearch {
+	width:240px;
+}
+
+#gene_search_legend {
+	font-size:20px;
+	font-weight:bold;
+}
+
+#about_text {
+	width:950px;
+	height:73px;
+	border:0px solid; 
+	margin-top:15px;
+	margin-left:5px; 
+	border-radius: 15px;
+}
+
+#about_text_inner {
+	margin-top:9px;
+	margin-left:5px;
+}
+
+
+hr {
+	border-width:2px; 
+	width:884px; 
+	margin-top:-16px;
+}
+
+#class_1 {
+	width:469px; 
+	border-width:2px; 
+}
+
+#colloborating_projects {
+	margin-left:24px; 
+	float:left; 
+	width:500px; 
+}
+
+#project_text {
+	height:230px;
+	width:920px; 	
+	border:0px solid; 
+	float:left;
+	margin-left:20px;
+	background-color:white;
+	#font-color:white;
+	border-radius: 15px;
+	margin-top:50px; 
+}
+
+#project_text_1 {
+	height:100px;
+	width:890px; 
+	border:0px solid; 
+	margin-left:5px; 
+	margin-top:30px;
+	font-size:17px;
+}
+
+#project_text_2 {
+        height:115px;
+        width:890px;
+	border:0px solid;
+	margin-left:5px; 
+	margin-top:5px;
+	font-size:17px; 
+}
+
+#project_text_3 {
+        height:85px;
+        width:890px;
+	border:0px solid; 
+	margin-left:5px;
+	margin-top:5px;
+}
+
+#project_text_4 {
+        height:106px;
+        width:890px;
+	border:0px solid; 
+	margin-left:5px;
+	margin-top:5px;
+}
+
+#image_button {
+	height:120px; 
+	width:915px; 
+	border: 3px solid;
+	margin-top:25px;
+	margin-left:23px;
+	border-radius: 15px;
+}
+
+
+#head_font {
+	font-size:25px;
+	font-weight:bold;
+}
+
+#current_projects {
+	margin-left:23px; 
+	
+}
+
+#box1 {
+	height:116px; 
+	width:150px; 
+	float:left;
+        border: 2px solid;
+	margin-left:0px;
+	border-radius: 15px;
+}
+
+#box2 {
+        height:116px;
+        width:150px;
+        border: 2px solid;
+	float:left; 
+	margin-left:100px;
+	border-radius: 15px;
+}
+
+#box3 {
+        height:116px;
+        width:150px;
+        border: 2px solid;
+        float:left;
+        margin-left:117px;
+	border-radius: 15px;
+}
+
+#box4 {
+        height:116px;
+        width:150px;
+	float:right;
+        border: 2px solid;
+	border-radius: 15px;
+}
+
+
+#box_image_1 {
+	height:116px;
+	width:150px; 
+	border-radius: 15px;
+}
+
+#box_image_2 {
+        height:116px;
+        width:150px;
+	border-radius: 15px;
+}
+
+#box_image_3 {
+        height:116px;
+        width:150px;
+	border-radius: 15px;
+}
+
+#box_image_4 {
+        height:116px;
+        width:150px;
+	border-radius: 15px;
+}
+
+#logos {
+	float:left;
+	height:100px;
+	width:880px;
+	margin-top:28px;
+	margin-left:9px;
+}
+
+#elixir {
+	height:100px;
+	width:200px;
+	float:left;
+	margin-left:20px;
+}
+
+#cigene {
+	height:100px;
+	width:265px;
+	margin-left:90px;
+	float:left;
+	margin-top:15px;
+}
+
+#nmbu {
+	height:120px;
+	width:200px;
+	float:right;
+	margin-right:40px;
+}
+
+#elixir_image {
+	height:100px;
+}
+
+#cigene_image {
+	height:75px;
+}
+
+#nmbu_image {
+	height:100px;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  border: none;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu {
+  height: 37px;
+  display: block;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 960px;
+  border-color: #080808;
+  margin-left: 0px;
+  padding: 0;
+  margin-top:30px;
+}
+
+#cssmenu > ul {
+  list-style: inside none;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu > ul > li {
+  list-style: inside none;
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width:160px; 
+  background-color: #214B96; 
+}
+
+#cssmenu.align-center > ul {
+  text-align: center;
+}
+
+#cssmenu.align-center > ul > li {
+  float: none;
+  margin-left: -3px;
+}
+
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+}
+
+#cssmenu > ul > li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid #080808;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 5px;
+}
+
+#cssmenu > ul > li > a:after {
+  content: "";
+  position: absolute;
+  border-right: 1px solid;
+  top: -1px;
+  bottom: -1px;
+  right: -2px;
+  z-index: 99;
+  border-color: #3c3c3c;
+}
+
+#cssmenu ul li.has-sub:hover > a:after {
+  top: 0;
+  bottom: 0;
+}
+
+#cssmenu > ul > li.has-sub > a:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  border: 5px solid transparent;
+  border-top: 5px solid #ffffff;
+}
+
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 19px;
+}
+
+#cssmenu > ul > li.has-sub:hover > a {
+  padding-bottom: 14px;
+  z-index: 999;
+  border-color: #3f3f3f;
+}
+
+#cssmenu ul li.has-sub:hover > ul,
+#cssmenu ul li.has-sub:hover > div {
+  display: block;
+}
+
+#cssmenu > ul > li.has-sub > a:hover,
+#cssmenu > ul > li.has-sub:hover > a {
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+}
+
+#cssmenu ul li > ul,
+#cssmenu ul li > div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  background: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+  #z-index: 999;
+  z-index: 2;
+  padding: 10px 0;
+}
+
+#cssmenu ul li > ul {
+  width: 160px;
+}
+
+#cssmenu ul ul ul {
+  position: absolute;
+}
+
+#cssmenu ul ul li:hover > ul {
+  left: 100%;
+  top: -10px;
+  border-radius: 5px;
+}
+
+#cssmenu ul li > ul li {
+  display: block;
+  list-style: inside none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu ul li > ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  font: 10pt Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 8px 20px;
+}
+
+#cssmenu,
+#cssmenu ul ul > li:hover > a,
+#cssmenu ul ul li a:hover {
+  background: #3c3c3c;
+  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+}
+
+#cssmenu > ul > li > a:hover {
+  background: #080808;
+  color: #ffffff;
+}
+
+#cssmenu ul ul a:hover {
+  color: #ffffff;
+}
+
+#cssmenu > ul > li.has-sub > a:hover:before {
+  border-top: 5px solid #ffffff;
+}
+
+
+#footer {
+	float:right;
+	margin-right:400px;
+	margin-top:18px; 
+}
+
+.dummy_div {
+	clear: both;
+}

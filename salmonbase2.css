@@ -1,1 +1,159 @@
-/var/www/html/salmonbase2.css
+/* Color Pallet
+	Light indico #3C6478;
+	Dark blue #293241;
+*/
+body{
+font-family:Raleway;
+/* background-color:#3C6478; */
+}
+/* All fonts size follow a 3:4 ratio */
+h1{font-size: 37px;}
+h2{font-size: 28px;}
+h3{font-size: 21px;}
+h4{font-size: 16px;}
+p{font-size: 16px;}
+.navbar {
+	height:80px;
+	/* background-color:#293241; */
+	background-color:#3C6478;
+	border-radius:0;
+	padding-left:370px;
+	z-index:9999;
+	border:none;
+}
+.navbar-default .navbar-nav > li > a:hover {background-color: #e7e7e7;}
+.navbar-default .navbar-nav > li > a:focus {color:#777;}
+/* Push the top-nav 30px from top */
+.t-cont{
+ padding-top:30px;
+}
+/* Change all navbars items to white */
+.navbar-header a.navbar-brand, a.navbar-brand,  .navbar-header p.navbar-brand, .nav.navbar-nav li a {	
+color:white;
+font-size:21px;
+}
+
+/* Style the search form at the top */
+input[type=text] {
+ width: 150px;
+ height:40px;
+ box-sizing: border-box;
+ border: 2px solid #ccc;
+ border-radius: 4px;
+ font-size: 16px;
+ background-color: white;
+/*     background-image: url('searchicon-1.png'); */
+ background-position: 10px 10px; 
+ background-repeat: no-repeat;
+ /* padding: 12px 20px 12px 40px; */
+ -webkit-transition: width 0.4s ease-in-out;
+ transition: width 0.4s ease-in-out;
+}
+form{
+ position:absolute; 
+ left:1180px; 
+ top:30px;
+}
+
+.glyphicon-home {font-size: 0.8em;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu { padding-top:5px;}
+
+/* navbar for species */
+.spceice-bar {
+	position:absolute;
+	z-index:999;
+	top:80px;
+	left:400px;
+	/* margin-left:auto;
+	margin-right:auto; */
+	padding-left:0px;
+	width:620px; /* Expand this if you need to add more species */
+	height:40px;
+	border:none;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.dropdown-menu{
+	background-color: #e8e9e9;
+}
+.dropdown.open ul.dropdown-menu li a{
+	color:black;
+}
+.nav-shadow{
+-webkit-box-shadow: -1px 4px 0 -1px #616161;
+box-shadow: -1px 4px 0 -1px #e8e9e9;
+}
+/*  Create a left/right Shadow boarder */
+.shadows{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;   
+	box-shadow: 0 9px 0px 0px white, 
+				0 -9px 0px 0px white, 
+				1px 0 15px -4px rgba(31, 73, 125, 0.8), 
+				-1px 0 15px -4px rgba(31, 73, 125, 0.8);
+
+    background: white;
+}
+.caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid black;
+}
+/* Hover over effect for pictures */
+.effectfront {
+  border: none;
+  margin: 0 auto;
+}
+.effectfront:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.atlantic_salmon{	
+	position:absolute;
+	left:268px;
+	top:220px;
+}
+.brown_trout{	
+	position:absolute;
+	left:268px;
+	top:200px;
+}
+.coho_salmon{	
+	position:absolute;
+	left:273px;
+	top:150px;
+}
+.artic_char{	
+	position:absolute;
+	left:278px;
+	top:178px;
+}
+.rainbow_trout{
+	position:absolute;
+	left:274px;
+	top:124px;
+}
+.danube_salmon{
+    position:absolute;
+    left:274px;
+	top:98px;
+}
+.european_grayling{
+	position:absolute;
+    left:274px;
+	top:72px;
+}
+.lakewhite{
+	position:absolute;
+    left:272px;
+	top:46px;	
+}
+.northenpike{
+	position:absolute;
+    left:272px;
+	top:22px;	
+}

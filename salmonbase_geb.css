@@ -1,1 +1,285 @@
-/var/www/html/salmonbase_geb.css
+a{
+	color:blue;
+	text-decoration: none;
+}
+
+#maindiv {
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	background-color:white;
+	height:auto;
+}
+
+tr.coloum_color {
+	background-color:#3C6478;
+}
+
+#back_button {
+	height:35px;
+	width:170px;
+	font-size:22px;
+	margin-left:11px;
+}
+
+#menudiv {
+	width:1200px;
+	height:50px;
+	background-color:#3C6478;
+	margin:auto;
+	text-align:center;
+}
+
+#inner_menu_div {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#font_style_1 {
+	font-size:15px;
+	margin-left:25px;
+}
+
+#header {
+	background-color: #FFFFFF;
+	width: 1100px;
+	height: 150px;
+	text-align: center;
+	margin-top:10px;
+}
+
+#coolMenu {
+	text-color:#FFFFFF;
+	font-weight:bold;
+	font-size:40px;
+	width:900px;
+	text-align:center;
+	margin-left:300px;
+}
+
+#images_main_div {
+	height:auto;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	border-color: #3C6478;
+	margin-top:20px;
+}
+
+#FPKM_text_div {
+	height:50px;
+	width:865px;
+	margin-left:o;
+	margin-right:auto;
+}
+
+#gene_info_table {
+	width:360px;
+	border:1px solid;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#gene_info_table_new {
+        width:327px;
+        border:1px solid;
+        margin-left:-15px;
+        margin-top:0px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;	
+    width:315px; 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+   font-size:40px
+}
+
+#gene_expression_info {
+	height:502px;
+	width:360px;
+	border:5px solid;
+	border-color:#3C6478;
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	/*border-right-width:0px;*/
+}
+
+#gene_expression_image {
+	height:auto;
+	width:1000px;
+	/*border:5px solid;*/
+	/*border-color:#3C6478;*/
+	float:right;
+        /*border-bottom-width:0px;
+	border-top-width:0px;*/
+}
+
+#gene_expression_image_tag {
+	height:502px;
+	margin-top:10px;
+	border: 5px solid #3C6478;
+}
+
+#SNP_search {
+	margin-left:auto;
+}
+
+#SNP_search_box {
+	width:600px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto; 
+	margin-top:0px;
+	border-width:2px;
+	border-color:#0080FF;
+}
+
+#SNP_search_button {
+	height:30px;
+	width:100px;
+	-webkit-appearance: button;
+}
+
+#SNP_table_33 {
+	width:1300px;
+	margin-left:100px;
+	margin-top:40px;
+}
+
+#donutchart {
+	height:308px;
+	width:400px;
+	float:right;
+	margin-top:0px;
+	margin-right:575px;
+}
+
+#chart_div {
+	height:350px;
+	width:450px;
+	float:left;
+	margin-left:53px;
+}
+
+#top_x_div {
+	height:350px;
+	width:450px;
+	float:right;
+	margin-right:55px;
+	margin-top:-315px;
+}
+
+
+#N_SNP_table {
+	width:400px;
+}
+
+#centerdiv {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#SBsearch {
+	width:250px;
+}
+
+#gene_search_legend {
+	font-size:20px;
+	font-weight:bold;
+}
+
+#footer {
+	background-color: #FFFFFF;
+	clear: both;
+	text-align:center ;
+	width: 1100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#SB {
+	color:#214B96;
+	font-weight:bold;
+	font-size:70px;
+}
+
+#about {
+	font-size:20px;
+	width:865px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+
+center	{
+	margin-left:auto
+	margin-right:auto
+}
+
+/*ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font-size:25px;
+}
+
+li {
+	display:inline;
+	margin-top:5px;
+}
+
+li {
+	float:left;
+}*/
+
+#download_seq_text {
+	margin-left:100px;
+	margin-top:10px;
+	font-size:20px;
+}
+
+#download_button{
+	height:80px;
+	width:120px;
+	margin-left:100px;
+	font-size:30px;
+	font-weight: bold;
+}
+
+#home,#blast_search,#gbrowse,#resource,#news {
+	display:block;
+	width:180px;
+	color:#FFFFFF;
+}
+
+.main_body{
+	height:400px;
+}
+
+#gene_expression_plot_info {
+	height:606px;
+	width:331px;
+}
+
+#gene_expression_plot {
+        height:600px;
+        width:500px;
+}
+
+ne_expression_plot{
+	height:600px;
+        width:500px;
+}
+
+
